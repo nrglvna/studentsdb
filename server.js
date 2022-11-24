@@ -15,7 +15,7 @@ app.use(express.json())
 // The route definitions for get, post and delete
 
 app.get('/',function (req,res){
-	res.sendFile (__dirname + '/app.html');
+	res.sendFile (__dirname + '/index.html');
 } )
 
 app.get("/api/allnames", async (req, res) => {
